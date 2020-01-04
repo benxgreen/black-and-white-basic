@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+
+/* Reset */
+
+	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+	}
+
+/* Global Tags */	
+	
+	h1, h2, h3, h4, p {
+		font-family: 'Oxygen', sans-serif;
+	}
+
+	body {
+		background-color: #212121;
+		width: 1000px;
+		margin: auto;
+		display: -webkit-flex: ;
+		-moz-flex: ;
+		-ms-flex: ;
+		-o-flex: ;
+		flex: ;
+
+	}
+
+	a {
+		color: #ffff;
+		font-weight: 800;
+		text-transform: lowercase;
+		text-decoration: none;
+	}
+
+	a:hover {
+	    color: #4c4c4c;
+    	text-decoration: none;
+    	font-weight: 1000;
+    	text-transform: lowercase;
+		letter-spacing: 5px;
+
+	}	
+
+	strong {
+		font-weight: 800;
+	}
+
+/* Custom IDs */
+
+	#home {
+		font-size: 80px;
+		padding-top: 260px; 
+		text-align: center;
+		color: #ffff;
+		font-weight: 900;
+	}
+
+	#footer {
+		font-size: 12px;
+		padding-bottom: 40px;
+		padding-top: 50px;
+		color: #ffff;
+		text-align: center;
+	}
+
+	#pages {
+		text-align: center;
+		font-family: 'Oxygen', sans-serif;
+		padding-bottom: 40px;
+		padding-top: 30px;
+		text-decoration:none;
+		color:#FFF;
+		letter-spacing: 5px;
+	}
+
+	#abouthead {
+		padding-top: 80px; 
+		text-align: center;
+		color: #ffff;
+		max-width: 200em;
+		font-size: 50px;
+		font-weight: 800;
+	}
+
+	#aboutcontent {
+		padding-top: 10px; 
+		text-align: center;
+		color: #ffff;
+		max-width: 200em;
+		font-size: 20px;
+		font-weight: 400;
+
+	}
+
+	#portfoliotitles {
+		padding-top: 75px; 
+		text-align: center;
+		color: #ffff;
+		max-width: 200em;
+		font-size: 30px;
+		font-weight: 800;
+		font-family: 'Oxygen', sans-serif;
+	}
+
+	#portfoliocontent {
+		padding-top: 5px; 
+		text-align: center;
+		color: #ffff;
+		max-width: 200em;
+		font-size: 15px;
+		font-weight: 400;	
+
+	}	
+
+	#contacthead {
+		padding-top: 80px; 
+		text-align: center;
+		color: #ffff;
+		max-width: 200em;
+		font-size: 50px;
+		font-weight: 800;
+	}
+
+	#contactcontent {
+		padding-top: 10px; 
+		text-align: center;
+		color: #ffff;
+		max-width: 200em;
+		font-size: 20px;
+		font-weight: 400;
+
+	}	
+
+	.no-underline:hover {
+    text-decoration: none;
+
+	}	
