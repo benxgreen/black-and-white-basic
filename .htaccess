@@ -1,0 +1,5 @@
+RewriteOptions inherit
+RewriteEngine on
+RewriteRule ^([^\.]+)$ $1.shtml [NC,L]
+ErrorDocument 404 /404.shtml
+ErrorDocument 403 /403.shtml
